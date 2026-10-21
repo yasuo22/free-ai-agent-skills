@@ -19,7 +19,7 @@ A skill is a small folder built around a `SKILL.md` file. Install it once, and y
 **With the skills CLI:**
 
 ```bash
-npx skills add __OWNER__/free-ai-agent-skills
+npx skills add yasuo22/free-ai-agent-skills
 ```
 
 **In Claude (claude.ai):** download this repo as a ZIP (green "Code" button → Download ZIP). Then in Claude: turn on code execution under Settings → Capabilities, go to Customize → Skills → **+** → Create skill → Upload a skill, and upload a ZIP containing one skill folder at a time (the `SKILL.md` must sit at the top level of the ZIP). Switch the skill on and test it in a new chat.
